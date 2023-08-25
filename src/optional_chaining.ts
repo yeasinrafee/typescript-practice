@@ -11,10 +11,10 @@ let customer = getCustomer(1);
 // Optional Property access operator
 console.log(customer?.birthday?.getFullYear());
 
-// Optional element access operator 
+// Optional element access operator
 // customer?.[0]
 
 // Optional Call
 let log: any = null;
-log('a')        // It'll give an error;
-log?('a');
+log("a"); // It'll give an error;
+log?.("a");
